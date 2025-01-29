@@ -1,21 +1,21 @@
 
 #' @export
-coef.hiperLogit <- function(object) {
-  warning("Function coef.hiperLogit is yet to be implemented.")
+coef.hiper_glm <- function(object) {
+  warning("Function coef.hiper_glm is yet to be implemented.")
   NULL
 }
 
 
 #' @export
-vcov.hiperLogit <- function(object) {
-  warning("Function vcov.hiperLogit is yet to be implemented.")
+vcov.hiper_glm <- function(object) {
+  warning("Function vcov.hiper_glm is yet to be implemented.")
   NULL
 
 }
 
 #' @export
-print.hiperLogit <- function(x, ...) {
-  warning("Function print.hiperLogit is yet to be implemented.")
-  cat("hiper_logitoutput\n")
+print.hiper_glm <- function(x, ...) {
+  warning("Function print.hiper_glm is yet to be implemented.")
+  cat("hiper_glm output\n")
 }
 
