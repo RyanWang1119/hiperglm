@@ -18,3 +18,4 @@ print.hiperLogit <- function(x, ...) {
   warning("Function print.hiperLogit is yet to be implemented.")
   cat("hiper_logitoutput\n")
 }
+
