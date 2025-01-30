@@ -1,21 +1,18 @@
 
 #' @export
-coef.hiper_glm <- function(object) {
+coef.hiper_glm <- function(hglm_out) {
   warning("Function coef.hiper_glm is yet to be implemented.")
-  NULL
 }
 
 
 #' @export
-vcov.hiper_glm <- function(object) {
+vcov.hiper_glm <- function(hglm_out) {
   warning("Function vcov.hiper_glm is yet to be implemented.")
-  NULL
 
 }
 
 #' @export
-print.hiper_glm <- function(x, ...) {
-  warning("Function print.hiper_glm is yet to be implemented.")
+print.hiper_glm <- function(hglm_out) {
   cat("hiper_glm output\n")
 }
 
